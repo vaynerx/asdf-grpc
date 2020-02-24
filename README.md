@@ -1,12 +1,12 @@
-![CI](https://github.com/team-gary/asdf-protoc-gen-ts/workflows/CI/badge.svg)
+![CI](https://github.com/team-gary/asdf-grpc/workflows/CI/badge.svg)
 
-# asdf-protoc-gen-ts
-protoc-gen-ts plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+# asdf-grpc
+grpc plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
 ```
-asdf plugin-add protoc-gen-ts https://github.com/team-gary/asdf-protoc-gen-ts.git
+asdf plugin-add grpc https://github.com/team-gary/asdf-grpc.git
 ```
 
 ## Use
