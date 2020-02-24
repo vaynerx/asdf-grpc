@@ -12,7 +12,8 @@ install () {
   local install_path=$3
 
   cd ${install_path}
-  git clone --recursive -b "V${version}" https://github.com/grpc/grpc.git
+  git clone --recursive -b "v${version}" https://github.com/grpc/grpc.git
+  chmod -R +x ./bins
   make plugins
 }
 
