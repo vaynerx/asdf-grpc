@@ -13,6 +13,7 @@ install () {
 
   cd ${install_path}
   git clone --recursive -b "v${version}" https://github.com/grpc/grpc.git
+  cd grpc
   make plugins
   chmod -R +x ./bins
 }
