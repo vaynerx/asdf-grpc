@@ -13,8 +13,8 @@ install () {
 
   cd ${install_path}
   git clone --recursive -b "v${version}" https://github.com/grpc/grpc.git
-  chmod -R +x ./bins
   make plugins
+  chmod -R +x ./bins
 }
 
 install $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
