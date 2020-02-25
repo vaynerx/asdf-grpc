@@ -17,8 +17,7 @@ install () {
   mkdir -p cmake/build
   cd cmake/build
   cmake ../..
-  make plugins
-  chmod -R +x ./bins
+  make
 }
 
 install $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
