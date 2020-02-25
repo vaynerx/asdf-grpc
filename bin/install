@@ -14,6 +14,9 @@ install () {
   cd ${install_path}
   git clone --recursive -b "v${version}" https://github.com/grpc/grpc.git
   cd grpc
+  mkdir -p cmake/build
+  cd cmake/build
+  cmake ../..
   make plugins
   chmod -R +x ./bins
 }
